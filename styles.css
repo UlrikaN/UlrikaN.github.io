@@ -10,7 +10,7 @@
 }
 
 .bg-1 {
-	background-color: #bf80ff;
+	background-color: #ffffe6;
 }
 
 .sub-section {
@@ -19,5 +19,9 @@
 }
 
 .bg-2 {
-	background-color: #e6ccff;
+	background-color: #f2e6ff;
+}
+
+.bg-3 {
+	background-color: #ffe6f2;
 }

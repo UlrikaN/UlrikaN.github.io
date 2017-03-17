@@ -2,8 +2,22 @@
 	margin: 0 auto;
 	text-align: center;
 }
+
 .portrait {
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 	border-radius: 50%;
+}
+
+.bg-1 {
+	background-color: #bf80ff;
+}
+
+.sub-section {
+	padding: 50px;
+	position: relative;
+}
+
+.bg-2 {
+	background-color: #e6ccff;
 }

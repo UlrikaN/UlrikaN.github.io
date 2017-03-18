@@ -36,6 +36,12 @@
 	position: relative;
 }
 
+.sub-section-content {
+	display: block;
+	margin: 1.5em auto 0;
+	max-width: 40em;
+}
+
 .main-heading {
 	font-size: 40px;
 }
@@ -52,15 +58,9 @@
 	font-size: 14px;
 }
 
-.experience {
-	padding: 20px;
-}
-
 .contact-link {
 	font-size: 12px;
 }
-
-
 
 p {
 	font-size: 10px;
@@ -70,6 +70,11 @@ p {
 	.portrait {
 		width: 250px;
 		height: 250px;
+	}
+
+	.experience {
+		display: inline-block;
+		padding: 10px;
 	}
 }
 

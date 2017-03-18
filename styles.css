@@ -16,7 +16,10 @@
 }
 
 .bg-1 {
-	background-color: #dedeed;
+	background: #d9d9f2;
+  	background: -webkit-linear-gradient(#d9d9f2, #dedeed);
+  	background:    -moz-linear-gradient(#d9d9f2, #dedeed);
+  	background:         linear-gradient(#d9d9f2, #dedeed);
 	padding: 45px;
 }
 
@@ -30,6 +33,7 @@
 
 .bg-4 {
 	background-color: #dedeed;
+
 }
 
 .sub-section {
@@ -37,22 +41,20 @@
 	position: relative;
 }
 
-.sub-section-content {
-	display: block;
-	margin: 1.5em auto 0;
-	/*max-width: 40em;*/
+.experience-text {
+	text-align: center;
 }
 
 .main-heading {
-	font-size: 3em;
+	font-size: 2.5em;
 	margin-bottom: 0;
 }
 
 .competences {
-	font-size: 1.8em;
+	font-size: 1.5em;
 }
 .sub-heading {
-	font-size: 1.6em;
+	font-size: 1.3em;
 	margin: 0;
 }
 
@@ -81,15 +83,27 @@ p {
 		height: 250px;
 	}
 
+
+
 	.experience {
+		text-align: left;
 		display: inline-block;
 		padding: 10px;
 	}
+
 }
 
 @media only screen and (min-width: 760px) {
 	.portrait {
 		width: 300px;
 		height: 300px;
+	}
+
+	.main-heading {
+		font-size: 3em;
+	}
+
+	.competences {
+		font-size: 1.8em;
 	}
 }

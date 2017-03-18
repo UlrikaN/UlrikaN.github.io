@@ -1,0 +1,46 @@
+.container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.portrait {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.responsive-image {
+	width: 200px;
+	height: 200px;
+}
+
+.bg-1 {
+	background-color: #ffffe6;
+}
+
+.bg-2 {
+	background-color: #f2e6ff;
+}
+
+.bg-3 {
+	background-color: #ffe6f2;
+}
+
+.sub-section {
+	padding: 10px;
+	position: relative;
+}
+
+@media only screen and (min-width: 500px) {
+	.portrait {
+		width: 250px;
+		height: 250px;
+	}
+}
+
+@media only screen and (min-width: 760px) {
+	.portrait {
+		width: 300px;
+		height: 300px;
+	}
+}

@@ -59,7 +59,7 @@
 }
 
 .sub-sub-heading {
-	font-size: 1.2em;
+	font-size: 1.1em;
 	margin: 0;
 }
 
@@ -83,8 +83,6 @@ p {
 		height: 250px;
 	}
 
-
-
 	.experience {
 		text-align: left;
 		display: inline-block;
@@ -105,5 +103,13 @@ p {
 
 	.competences {
 		font-size: 1.8em;
+	}
+
+	.sub-heading {
+		font-size: 1.5em;
+	}
+
+	.sub-sub-heading {
+		font-size: 1.2em;
 	}
 }

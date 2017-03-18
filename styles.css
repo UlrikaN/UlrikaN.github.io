@@ -32,6 +32,10 @@
 	position: relative;
 }
 
+.experience {
+	padding: 20px;
+}
+
 @media only screen and (min-width: 500px) {
 	.portrait {
 		width: 250px;

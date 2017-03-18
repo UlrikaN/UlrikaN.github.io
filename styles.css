@@ -1,3 +1,4 @@
+/*UN*/
 .container {
 	margin: 0 auto;
 	text-align: center;
@@ -98,7 +99,8 @@ p {
 	}
 
 	.main-heading {
-		font-size: 3em;
+		font-size: 4em;
+
 	}
 
 	.competences {

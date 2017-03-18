@@ -43,14 +43,17 @@
 }
 
 .main-heading {
+	margin: 0;
 	font-size: 40px;
 }
 
 .sub-heading {
+	margin: 0;
 	font-size: 20px;
 }
 
 .sub-sub-heading {
+	margin: 0;
 	font-size: 16px;
 }
 
@@ -63,6 +66,7 @@
 }
 
 p {
+	margin: 1;
 	font-size: 10px;
 }
 

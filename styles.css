@@ -1,3 +1,4 @@
+/*UN*/
 .container {
 	margin: 0 auto;
 	text-align: center;
@@ -12,18 +13,28 @@
 .responsive-image {
 	width: 200px;
 	height: 200px;
+	border-radius: 5%;
 }
 
 .bg-1 {
-	background-color: #ffffe6;
+	background: #d9d9f2;
+  	background: -webkit-linear-gradient(#d9d9f2, #dedeed);
+  	background:    -moz-linear-gradient(#d9d9f2, #dedeed);
+  	background:         linear-gradient(#d9d9f2, #dedeed);
+	padding: 45px;
 }
 
 .bg-2 {
-	background-color: #f2e6ff;
+	background-color: #dedeed;
 }
 
 .bg-3 {
-	background-color: #ffe6f2;
+	background-color: #dedeed;
+}
+
+.bg-4 {
+	background-color: #dedeed;
+
 }
 
 .sub-section {
@@ -31,16 +42,75 @@
 	position: relative;
 }
 
+.experience-text {
+	text-align: center;
+}
+
+.main-heading {
+	font-size: 2.5em;
+	margin-bottom: 0;
+}
+
+.competences {
+	font-size: 1.5em;
+}
+.sub-heading {
+	font-size: 1.3em;
+	margin: 0;
+}
+
+.sub-sub-heading {
+	font-size: 1.1em;
+	margin: 0;
+}
+
+.contact-link {
+	font-size: 2em;
+	margin: 0.5em;
+}
+
+h1, h2, h3 {
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 0;
+}
+
 @media only screen and (min-width: 500px) {
 	.portrait {
 		width: 250px;
 		height: 250px;
 	}
+
+	.experience {
+		text-align: left;
+		display: inline-block;
+		padding: 10px;
+	}
+
 }
 
 @media only screen and (min-width: 760px) {
 	.portrait {
 		width: 300px;
 		height: 300px;
+	}
+
+	.main-heading {
+		font-size: 4em;
+	}
+
+	.competences {
+		font-size: 1.8em;
+	}
+
+	.sub-heading {
+		font-size: 1.5em;
+	}
+
+	.sub-sub-heading {
+		font-size: 1.2em;
 	}
 }

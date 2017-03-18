@@ -32,8 +32,34 @@
 	position: relative;
 }
 
+.main-heading {
+	font-size: 40px;
+}
+
+.sub-heading {
+	font-size: 20px;
+}
+
+.sub-sub-heading {
+	font-size: 16px;
+}
+
+.competences {
+	font-size: 14px;
+}
+
 .experience {
 	padding: 20px;
+}
+
+.contact-link {
+	font-size: 12px;
+}
+
+
+
+p {
+	font-size: 10px;
 }
 
 @media only screen and (min-width: 500px) {

@@ -4,9 +4,8 @@
 	text-align: center;
 }
 
-.minNavbar {
+.navbar {
 	background-color: #d9d9f2;
-	height: 0.3%;
 }
 
 .portrait {
@@ -24,6 +23,7 @@
 
 .bg-0 {
 	background: #d9d9f2
+	height: 100px;
 }
 
 .bg-1 {
@@ -85,6 +85,7 @@
 
 h1, h2, h3 {
 	font-family: 'Raleway', sans-serif;
+	margin: 4px;
 }
 
 p {

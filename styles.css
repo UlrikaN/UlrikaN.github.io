@@ -4,16 +4,26 @@
 	text-align: center;
 }
 
+.minNavbar {
+	background-color: #d9d9f2;
+	height: 0.3%;
+}
+
 .portrait {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
+	padding: 12px;
 }
 
 .responsive-image {
 	width: 200px;
 	height: 200px;
 	border-radius: 5%;
+}
+
+.bg-0 {
+	background: #d9d9f2
 }
 
 .bg-1 {

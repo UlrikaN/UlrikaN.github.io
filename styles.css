@@ -59,23 +59,23 @@
 }
 
 .main-heading {
-	font-size: 2.5em;
+	font-size: 2.6em;
 	margin-bottom: 0;
 	font-weight: bold;
 }
 
 .competences {
-	font-size: 1.5em;
+	font-size: 1.6em;
 	font-weight: bold;
 }
 .sub-heading {
-	font-size: 1.3em;
+	font-size: 1.4em;
 	margin: 0;
 	font-weight: bold;
 }
 
 .sub-sub-heading {
-	font-size: 1.1em;
+	font-size: 1.2em;
 	margin: 0;
 	font-weight: bold;
 }
@@ -116,19 +116,19 @@ p {
 	}
 
 	.main-heading {
-		font-size: 4em;
+		font-size: 4.1em;
 
 	}
 
 	.competences {
-		font-size: 1.8em;
+		font-size: 1.9em;
 	}
 
 	.sub-heading {
-		font-size: 1.5em;
+		font-size: 1.6em;
 	}
 
 	.sub-sub-heading {
-		font-size: 1.2em;
+		font-size: 1.3em;
 	}
 }

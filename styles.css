@@ -4,10 +4,17 @@
 	text-align: center;
 }
 
+.navbar {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #d9d9f2;
+	padding: 0;
+}
+
 .portrait {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
+	padding: 12px;
 }
 
 .responsive-image {
@@ -16,11 +23,16 @@
 	border-radius: 5%;
 }
 
+.bg-0 {
+	background-color: #d9d9f2;
+}
+
 .bg-1 {
 	background: #d9d9f2;
   	background: -webkit-linear-gradient(#d9d9f2, #dedeed);
   	background:    -moz-linear-gradient(#d9d9f2, #dedeed);
   	background:         linear-gradient(#d9d9f2, #dedeed);
+  	margin-top: 50px;
 	padding: 45px;
 }
 
@@ -75,6 +87,7 @@
 
 h1, h2, h3 {
 	font-family: 'Raleway', sans-serif;
+	margin: 4px;
 }
 
 p {

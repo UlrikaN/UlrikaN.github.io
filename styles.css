@@ -5,7 +5,9 @@
 }
 
 .navbar {
+	font-family: 'Josefin Sans', sans-serif;
 	background-color: #d9d9f2;
+	padding: 0;
 }
 
 .portrait {
@@ -22,8 +24,7 @@
 }
 
 .bg-0 {
-	background: #d9d9f2
-	height: 100px;
+	background-color: #d9d9f2;
 }
 
 .bg-1 {
@@ -31,6 +32,7 @@
   	background: -webkit-linear-gradient(#d9d9f2, #dedeed);
   	background:    -moz-linear-gradient(#d9d9f2, #dedeed);
   	background:         linear-gradient(#d9d9f2, #dedeed);
+  	margin-top: 50px;
 	padding: 45px;
 }
 

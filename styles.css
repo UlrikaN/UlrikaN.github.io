@@ -3,30 +3,25 @@
 	margin: 0 auto;
 	text-align: center;
 }
-
 .navbar {
 	font-family: 'Josefin Sans', sans-serif;
 	background-color: #d9d9f2;
 	padding: 0;
 }
-
 .portrait {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
 	padding: 12px;
 }
-
 .responsive-image {
 	width: 200px;
 	height: 200px;
 	border-radius: 5%;
 }
-
 .bg-0 {
 	background-color: #d9d9f2;
 }
-
 .bg-1 {
 	background: #d9d9f2;
   	background: -webkit-linear-gradient(#d9d9f2, #dedeed);
@@ -35,35 +30,27 @@
   	margin-top: 50px;
 	padding: 45px;
 }
-
 .bg-2 {
 	background-color: #dedeed;
 }
-
 .bg-3 {
 	background-color: #dedeed;
 }
-
 .bg-4 {
 	background-color: #dedeed;
-
 }
-
 .sub-section {
 	padding: 10px;
 	position: relative;
 }
-
 .experience-text {
 	text-align: center;
 }
-
 .main-heading {
 	font-size: 2.6em;
 	margin-bottom: 0;
 	font-weight: bold;
 }
-
 .competences {
 	font-size: 1.6em;
 	font-weight: bold;
@@ -73,61 +60,48 @@
 	margin: 0;
 	font-weight: bold;
 }
-
 .sub-sub-heading {
 	font-size: 1.2em;
 	margin: 0;
 	font-weight: bold;
 }
-
 .contact-link {
 	font-size: 2em;
 	margin: 0.5em;
 }
-
 h1, h2, h3 {
 	font-family: 'Raleway', sans-serif;
 	margin: 4px;
 }
-
 p {
 	font-family: 'Josefin Sans', sans-serif;
 	margin-top: 0;
 }
-
 @media only screen and (min-width: 500px) {
 	.portrait {
 		width: 250px;
 		height: 250px;
 	}
-
 	.experience {
 		text-align: left;
 		display: inline-block;
 		padding: 10px;
 	}
-
 }
-
 @media only screen and (min-width: 760px) {
 	.portrait {
 		width: 300px;
 		height: 300px;
 	}
-
 	.main-heading {
 		font-size: 4.1em;
-
 	}
-
 	.competences {
 		font-size: 1.9em;
 	}
-
 	.sub-heading {
 		font-size: 1.6em;
 	}
-
 	.sub-sub-heading {
 		font-size: 1.3em;
 	}
